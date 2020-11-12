@@ -1,0 +1,24 @@
+{
+  "name": "readme-pkg",
+  "version": "1.0.0",
+  "description": "Package to generate a readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git-remote-url"
+  },
+  "keywords": [
+    "readme"
+  ],
+  "author": "Ryan Stout",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "my-package": "0.0.0"
+  }
+}
